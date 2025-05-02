@@ -1,0 +1,79 @@
+body {
+    background-color: darkgray;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px;
+}
+
+h2 {
+
+}
+
+.one {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    padding: 10px;
+}
+
+h1 {
+
+}
+
+h3 {
+
+}
+
+.two {
+display: flex;
+flex-direction: row;
+padding: 10px;
+}
+
+.profile {
+    display: flex;
+    flex: 1 0 150px;
+}
+
+.three {
+    display: flex;
+    padding: 10px;
+}
+
+.four {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+button {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+  }
+
+.LocalHaunt {
+    width: 500px;
+    height: auto;
+  }
