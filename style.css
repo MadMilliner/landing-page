@@ -78,16 +78,19 @@ h3 {
 .profile {
     display: flex;
     flex: 0 1 100px;
+    margin: 5px;
 }
 
 .three {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-self: center;
     padding: 10px;
     color: #555555;
     font-size: 16px;
     font-weight: 150;
+    width: 70%;
 }
 
 .source {
@@ -116,7 +119,7 @@ h3 {
     display: flex;
     padding: 15px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: auto;
 }
 
@@ -139,4 +142,12 @@ button {
     width: 500px;
     height: auto;
     margin: 10px;
+  }
+
+  .CTAtop {
+    font-weight: 400;
+  }
+
+  .CTA-end {
+    font-weight: 200;
   }
